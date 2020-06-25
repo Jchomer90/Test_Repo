@@ -1,0 +1,23 @@
+{
+  "name": "first_npm",
+  "version": "0.0.1",
+  "description": "the description is whatever you want it to be",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "twilio": "^3.47.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "test": "chai server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/joshhomer/first_node"
+  },
+  "author": "josh homer",
+  "license": "ISC"
+}
